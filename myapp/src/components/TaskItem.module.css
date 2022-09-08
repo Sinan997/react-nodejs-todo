@@ -1,0 +1,15 @@
+.item {
+  background-color: white;
+  margin: 10px 0;
+  color: #000;
+  padding: 0.65rem;
+  border-radius: 5px;
+  word-wrap: break-word;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}

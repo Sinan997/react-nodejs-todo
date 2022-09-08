@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.form button {
+  padding: 9px 25px;
+  border-radius: 50px;
+  border: none;
+  color: #edf0f1;
+  background-color: rgba(0, 136, 169, 1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 12px;
+}
+
+.form button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
